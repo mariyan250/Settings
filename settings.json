@@ -1,0 +1,31 @@
+{
+    "material-icon-theme.showWelcomeMessage": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.fontWeightBold": "normal",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "window.enableMenuBarMnemonics": false,
+    "window.zoomLevel": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
+}

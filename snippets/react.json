@@ -1,0 +1,40 @@
+{
+    "React Function Component": {
+        "scope": "javascriptreact",
+        "prefix": "rc",
+        "body": [
+            "import React from 'react';",
+            "",
+            "const ${Name} = () => {",
+            "    return (",
+            "        <div>",
+            "            $0",
+            "        </div>",
+            "    )",
+            "}",
+            "",
+            "export default ${Name};"
+        ],
+        "description": "React Function Component"
+    },
+    "React Class Component": {
+        "scope": "javascriptreact",
+        "prefix": "rcc",
+        "body": [
+            "import React, { Component } from 'react';",
+            "",
+            "class ${Name} extends Component {",
+            "    render() {",
+            "        return (",
+            "            <div>",
+            "                $0",
+            "            </div>",
+            "        )",
+            "    }",
+            "}",
+            "",
+            "export default ${Name};"
+        ],
+        "description": "React Class Component"
+    }
+}
