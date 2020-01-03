@@ -16,6 +16,8 @@
     "window.enableMenuBarMnemonics": false,
     "window.zoomLevel": 0,
     "liveServer.settings.donotShowInfoMsg": true,
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#42a5f5",
     "files.associations": {
         "*.js": "javascriptreact"
     },
