@@ -1,6 +1,5 @@
 {
     "material-icon-theme.showWelcomeMessage": false,
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 16,
     "editor.tabCompletion": "onlySnippets",
     "editor.minimap.enabled": false,
@@ -16,8 +15,10 @@
     "window.enableMenuBarMnemonics": false,
     "window.zoomLevel": 0,
     "liveServer.settings.donotShowInfoMsg": true,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.folders.color": "#42a5f5",
+    "material-icon-theme.folders.color": "#3498db",
     "files.associations": {
         "*.js": "javascriptreact"
     },
@@ -28,6 +29,9 @@
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     }
 }
