@@ -16,6 +16,7 @@
     "window.zoomLevel": 0,
     "liveServer.settings.donotShowInfoMsg": true,
     "breadcrumbs.enabled": false,
+    "editor.tabSize": 2,
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.folders.color": "#3498db",
