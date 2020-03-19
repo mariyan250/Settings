@@ -4,8 +4,8 @@
         "prefix": "describe",
         "body": [
             "describe('$1', () => {",
-            "    $0",
-            "});",
+            "  $0",
+            "});"
         ],
         "description": "Describe test"
     },
@@ -15,8 +15,8 @@
         "prefix": "it",
         "body": [
             "it('$1', () => {",
-            "    $0",
-            "});",
+            "  $0",
+            "});"
         ],
         "description": "Test"
     }
