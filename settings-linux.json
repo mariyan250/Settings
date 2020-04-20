@@ -39,7 +39,5 @@
     "[jsonc]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "One Dark Pro",
-    "oneDarkPro.italic": false
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
