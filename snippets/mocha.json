@@ -1,23 +1,15 @@
 {
   "Describe test": {
-    "scope": "javascriptreact",
+    "scope": "javascript",
     "prefix": "describe",
-    "body": [
-      "describe('$1', () => {",
-      "  $0",
-      "});"
-    ],
+    "body": ["describe('$1', () => {", "  $0", "});"],
     "description": "Describe test"
   },
 
   "Test": {
-    "scope": "javascriptreact",
+    "scope": "javascript",
     "prefix": "it",
-    "body": [
-      "it('$1', () => {",
-      "  $0",
-      "});"
-    ],
+    "body": ["it('$1', () => {", "  $0", "});"],
     "description": "Test"
   }
 }

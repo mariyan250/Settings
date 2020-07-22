@@ -31,10 +31,5 @@
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.jsxBracketSameLine": true,
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "explorer.compactFolders": false
 }
