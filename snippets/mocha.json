@@ -1,5 +1,5 @@
 {
-  "Describe test": {
+  "Describe Test": {
     "scope": "javascript",
     "prefix": "describe",
     "body": ["describe('$1', () => {", "  $0", "});"],
