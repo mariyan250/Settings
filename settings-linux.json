@@ -1,6 +1,6 @@
 {
   "material-icon-theme.showWelcomeMessage": false,
-  "editor.fontSize": 16.6,
+  "editor.fontSize": 17.4,
   "editor.tabCompletion": "onlySnippets",
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
@@ -16,10 +16,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "breadcrumbs.enabled": false,
   "editor.tabSize": 2,
-  "material-icon-theme.folders.theme": "classic",
-  "material-icon-theme.folders.color": "#3498db",
   "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": 0.33,
   "editor.fontFamily": "Ubuntu Mono, Courier New, monospace",
   "terminal.integrated.fontSize": 16,
   "explorer.confirmDelete": false,
@@ -31,5 +28,14 @@
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.jsxBracketSameLine": true,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
