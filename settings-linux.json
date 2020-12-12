@@ -1,41 +1,50 @@
 {
-  "material-icon-theme.showWelcomeMessage": false,
-  "editor.fontSize": 17.4,
-  "editor.tabCompletion": "onlySnippets",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.fontWeightBold": "normal",
-  "debug.internalConsoleOptions": "openOnSessionStart",
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnSave": true,
-  "window.enableMenuBarMnemonics": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "breadcrumbs.enabled": false,
-  "editor.tabSize": 2,
-  "window.menuBarVisibility": "toggle",
-  "editor.fontFamily": "Ubuntu Mono, Courier New, monospace",
-  "terminal.integrated.fontSize": 16,
-  "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "files.autoSave": "onWindowChange",
-  "prettier.endOfLine": "auto",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.jsxBracketSameLine": true,
-  "explorer.compactFolders": false,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "material-icon-theme.showWelcomeMessage": false,
+    "editor.fontSize": 17.4,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.fontWeightBold": "normal",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "window.enableMenuBarMnemonics": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "breadcrumbs.enabled": false,
+    "editor.tabSize": 2,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "Ubuntu Mono, Courier New, monospace",
+    "terminal.integrated.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "onWindowChange",
+    "prettier.endOfLine": "auto",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "explorer.compactFolders": false,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+      "**/node_modules/**": true
+    },
   }
-}
