@@ -1,6 +1,6 @@
 {
   "React Function Component": {
-    "scope": "javascriptreact",
+    "scope": "javascript, javascriptreact",
     "prefix": "rc",
     "body": [
       "import React from 'react';",
@@ -15,26 +15,6 @@
       "",
       "export default ${Name};"
     ],
-    "description": "React Function Component"
+    "description": "React Component"
   },
-  "React Class Component": {
-    "scope": "javascriptreact",
-    "prefix": "rcc",
-    "body": [
-      "import React, { Component } from 'react';",
-      "",
-      "class ${Name} extends Component {",
-      "  render() {",
-      "    return (",
-      "      <section className=\"${Name}\">",
-      "        $0",
-      "      </section>",
-      "    );",
-      "  };",
-      "};",
-      "",
-      "export default ${Name};"
-    ],
-    "description": "React Class Component"
-  }
 }
