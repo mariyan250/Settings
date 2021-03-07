@@ -1,6 +1,6 @@
 {
   "React native Function Component": {
-    "scope": "javascriptreact",
+    "scope": "javascript, javascriptreact",
     "prefix": "rnc",
     "body": [
       "import React from 'react';",
@@ -8,35 +8,23 @@
       "",
       "function ${Name}() {",
       "  return (",
-      "    <View>",
+      "    <View style={styles.container}>",
       "      <Text>$0</Text>",
       "    </View>",
       "  );",
       "};",
-      "",
-      "export default ${Name};"
+			"",
+      "export default ${Name};",
+			"",
+			"const styles = StyleSheet.create({",
+			"  container: {",
+			"    flex: 1,",
+			"    backgroundColor: '#fff',",
+			"    alignItems: 'center',",
+			"    justifyContent: 'center',",
+			"  },",
+			"});"
     ],
-    "description": "React Native Function Component"
+    "description": "React Native Component"
   },
-  "React Native Class Component": {
-    "scope": "javascriptreact",
-    "prefix": "rncc",
-    "body": [
-      "import React, { Component } from 'react';",
-      "import { View, Text, StyleSheet } from 'react-native';",
-      "",
-      "class ${Name} extends Component {",
-      "  render() {",
-      "    return (",
-      "      <View>",
-      "        <Text>$0</Text>",
-      "      </View>",
-      "    );",
-      "  };",
-      "};",
-      "",
-      "export default ${Name};"
-    ],
-    "description": "React Native Class Component"
-  }
 }
