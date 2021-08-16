@@ -1,38 +1,57 @@
 {
-    "material-icon-theme.showWelcomeMessage": false,
-    "editor.fontSize": 16,
-    "editor.tabCompletion": "onlySnippets",
-    "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.rendererType": "dom",
-    "terminal.integrated.fontWeightBold": "normal",
-    "debug.internalConsoleOptions": "openOnSessionStart",
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "editor.snippetSuggestions": "top",
-    "editor.formatOnSave": true,
-    "window.enableMenuBarMnemonics": false,
-    "window.zoomLevel": 0,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "breadcrumbs.enabled": false,
-    "editor.tabSize": 2,
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.folders.color": "#3498db",
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    }
+  "material-icon-theme.showWelcomeMessage": false,
+  "editor.fontSize": 15.9,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontWeightBold": "normal",
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "window.enableMenuBarMnemonics": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "breadcrumbs.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.singleQuote": true,
+  "explorer.compactFolders": false,
+  "files.autoSave": "onWindowChange",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "git.confirmSync": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.folders.theme": "classic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
 }
