@@ -4,8 +4,6 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "terminal.integrated.rendererType": "dom",
   "terminal.integrated.fontWeightBold": "normal",
   "debug.internalConsoleOptions": "openOnSessionStart",
   "git.enableSmartCommit": true,
@@ -42,7 +40,6 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "One Dark Pro",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.folders.theme": "classic",
