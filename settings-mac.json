@@ -1,0 +1,49 @@
+{
+  "editor.fontSize": 15.6,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "onWindowChange",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.folders.theme": "classic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabCompletion": "on",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.next": true,
+    "**/build": true,
+    "**/node_modules": true
+  },
+  "editor.snippetSuggestions": "top",
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 0.8,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.foldingImportsByDefault": true,
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
