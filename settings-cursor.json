@@ -8,12 +8,14 @@
   "editor.foldingImportsByDefault": true,
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports.biome": "explicit",
     "source.fixAll.biome": "explicit"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.activityBar.orientation": "vertical",
+  "workbench.activityBar.orientation": "horizontal",
+  "workbench.tree.enableStickyScroll": false,
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
