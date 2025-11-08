@@ -1,12 +1,11 @@
 {
-  "editor.fontSize": 14.9,
+  "editor.fontSize": 14.3,
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 80,
+  "editor.wordWrapColumn": 70,
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.foldingImportsByDefault": true,
-  "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
   "editor.codeActionsOnSave": {
@@ -46,8 +45,15 @@
   "gitlens.currentLine.scrollable": false,
   "material-icon-theme.folders.color": "#f0932b",
   "material-icon-theme.folders.theme": "classic",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "biome.suggestInstallingGlobally": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": true,
 }
